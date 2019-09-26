@@ -1,0 +1,53 @@
+/*
+fontweights:
+regular 400
+regular 400 italic
+bold 700
+bold 700 italic
+*/
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap);
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+header {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    background-color: darkorange;
+    color: white;
+    letter-spacing: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+}
